@@ -14,7 +14,6 @@ const ingredientsItemArr = ingredients.map(ingredient => {
   ingredientsEl.textContent = ingredient;
   return ingredientsEl;
 })
-console.log(ingredientsItemArr);
 ingredientsListEl.append(...ingredientsItemArr);
 
 
